@@ -1,0 +1,29 @@
+<%= javascript_include_tag "site" %>
+
+<div id="sidebar">
+  <div class="row heading">
+    <h2>Drawing & Sound</h2>
+  </div>
+  <div class="row">
+    <p>Brush Color</p>
+    <input type="color" id="brushColor">
+  </div>
+  <div class="row">
+    <p>Background Color</p>
+    <input type="color" id="bgColor">
+  </div>
+
+  <div class="row">
+    <button class="button">
+      <a href="#" id="saveCanvas">Save & Clear</a>
+    </button>
+    <button class="button">
+      <a href="#" id="clearCanvas">Clear</a>
+    </button>
+  </div>
+  <button class="button">Instructions</button>
+  <div class="row" id="instructions" style="display: none">
+    Allow mic input and talk to the mic.
+  </div>
+
+</div>
