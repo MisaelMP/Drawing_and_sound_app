@@ -85,7 +85,7 @@ function _(id) {
 function setup() {
   paint = createCanvas(innerWidth - 200, innerHeight);
   bgColor = '#000';
-  socket = io.connect('http://localhost:4567');
+  socket = io.connect(location.host);
   socket.on('mouse', newDrawing);
   walker = new Walker();
 
