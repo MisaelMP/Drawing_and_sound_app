@@ -1,12 +1,14 @@
 const express = require('express');
 const app = express();
-var port = process.env.PORT || 4567
+const port = process.env.PORT || 4567
 const server = app.listen(port);
 app.use(express.static('build'));
 console.log('this is working');
 
 const socket = require('socket.io');
 const io = socket(server);
+io.set('origins', '*:*');
+
 
 io.sockets.on('connection', newConnection);
 function newConnection(socket) {
