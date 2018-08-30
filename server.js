@@ -7,8 +7,7 @@ console.log('this is working');
 
 const socket = require('socket.io');
 const io = socket(server);
-io.set('origins', '*:*');
-
+io.origins('*:*')
 
 io.sockets.on('connection', newConnection);
 function newConnection(socket) {
