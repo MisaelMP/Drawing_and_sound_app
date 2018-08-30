@@ -8,8 +8,8 @@ console.log('this is working');
 
 const socket = require('socket.io');
 const io = socket(server);
-io.origins('*:*')
-io.set('origins', 'CLIENT_URL');
+// io.origins('*:*')
+io.set('origins', 'https://drawing-sound.herokuapp.com/');
 
 io.sockets.on('connection', newConnection);
 function newConnection(socket) {
