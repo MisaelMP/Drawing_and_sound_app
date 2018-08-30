@@ -7,3 +7,4 @@ gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw]
 gem "middleman-sprockets"
 gem 'font-awesome-middleman'
 gem "jquery-middleman"
+gem 'middleman-gh-pages'
