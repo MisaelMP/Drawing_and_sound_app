@@ -1,15 +1,11 @@
-
 const express = require('express');
 const app = express();
-const port = process.env.PORT || 4567
-const server = app.listen(port);
+const server = app.listen(4567);
 app.use(express.static('build'));
 console.log('this is working');
 
 const socket = require('socket.io');
 const io = socket(server);
-// io.origins('*:*')
-io.set('origins', 'https://misaelmp.github.io:80');
 
 io.sockets.on('connection', newConnection);
 function newConnection(socket) {

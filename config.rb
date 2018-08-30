@@ -17,10 +17,10 @@ activate :relative_assets
 set :relative_links, true
 
 # Use “pretty” URLs (without the `.html` suffix)
-activate :directory_indexes
+# activate :directory_indexes
 
 # Append hashes to compiled assets
-activate :asset_hash
+# activate :asset_hash
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
