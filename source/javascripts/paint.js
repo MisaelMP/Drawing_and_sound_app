@@ -13,7 +13,7 @@ function _(id) {
 
 function setup() {
   paint = createCanvas(innerWidth - 200, innerHeight);
-  socket = io.connect('https://drawing-sound.herokuapp.com/');
+  socket = io.connect('http://localhost:4567');
   socket.on('mouse', newDrawing);
   brushColor = '#151718';
   bgColor = '#f1ebeb';
