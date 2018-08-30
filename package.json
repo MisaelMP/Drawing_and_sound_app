@@ -1,13 +1,9 @@
 {
-  "name": "sharedcanvas",
+  "name": "shared_canvas",
   "version": "1.0.0",
   "description": "App using socket.io, p5.js, express and node.js",
   "main": "index.js",
-  "engines": {
-    "node": "10.7.0"
-  },
   "scripts": {
-    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
