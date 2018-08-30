@@ -8,3 +8,5 @@ gem "middleman-sprockets"
 gem 'font-awesome-middleman'
 gem "jquery-middleman"
 gem 'middleman-gh-pages'
+gem 'rake'
+gem 'rack-contrib'
