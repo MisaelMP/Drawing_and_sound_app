@@ -1,3 +1,4 @@
+
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 4567
@@ -8,6 +9,7 @@ console.log('this is working');
 const socket = require('socket.io');
 const io = socket(server);
 io.origins('*:*')
+io.set('origins', 'CLIENT_URL');
 
 io.sockets.on('connection', newConnection);
 function newConnection(socket) {
