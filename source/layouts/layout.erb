@@ -19,12 +19,10 @@
 
     <div class="topnav" id="myTopnav">
       <%= link_to 'Home', '/', :class => 'active' %>
-      <%= link_to 'Transferencial painting', '/paint.html' %>
-      <%= link_to 'Brownian motion', '/brownian.html' %>
-      <%= link_to 'Random walk', '/walker.html' %>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
+      <%= link_to 'Transferencial painting', 'paint.html' %>
+      <%= link_to 'Brownian motion', 'brownian.html' %>
+      <%= link_to 'Random walk', 'walker.html' %>
+      <%= link_to '<i class="fa fa-bars"></i>'.html_safe, 'javascript:void(0);', :class => 'icon', :onclick => 'myFunction()' %>
     </div>
 
     <%= yield %>
