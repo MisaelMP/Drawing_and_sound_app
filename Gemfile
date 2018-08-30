@@ -10,3 +10,4 @@ gem "jquery-middleman"
 gem 'middleman-gh-pages'
 gem 'rake'
 gem 'rack-contrib'
+gem 'puma'
