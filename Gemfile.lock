@@ -91,6 +91,7 @@ GEM
       activesupport (>= 3.1)
     parallel (1.12.1)
     public_suffix (3.0.3)
+    puma (3.12.0)
     rack (2.0.5)
     rack-contrib (2.0.1)
       rack (~> 2.0)
@@ -122,6 +123,7 @@ DEPENDENCIES
   middleman-autoprefixer (~> 2.7)
   middleman-gh-pages
   middleman-sprockets
+  puma
   rack-contrib
   rake
   tzinfo-data
