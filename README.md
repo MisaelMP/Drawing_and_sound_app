@@ -1,7 +1,7 @@
 
 ## Voice drawing app
 -------------
-Drawing app is an interactive site that allows multiple users to shared a canvas and create a collaborative artwork using the threshold of their voice and sound. The application is meant to reduce the lack of accessibility in the technological and artistic worlds by facilitating the production of work without the formal and technical requirements previously thought to be a primary need. The user will be aware about the nature of the intertextual narrative and the interconnection and possibilities of trans media and telecommunications. The site also aims to reflect on the boundaries of language and the limitations of space, the liminal point of intersection between both and the amalgamation of disciplines.
+Drawing app is an interactive site that allows multiple users to share a canvas and create a collaborative artwork using the threshold of their voice and sound. The application is meant to reduce the lack of accessibility in the technological and artistic worlds by facilitating the production of work without the formal and technical requirements previously thought to be a primary need. The user will be aware about the nature of the intertextual narrative and the interconnection and possibilities of transmedia and telecommunications. The site also aims to reflect on the boundaries of language and the limitations of space, the liminal point of intersection between both and the amalgamation of disciplines.
 #### Screenshot
 -------
 ![Brownian motion](https://res.cloudinary.com/dvveletez/image/upload/v1536555305/drawingandsoundapp.png)
