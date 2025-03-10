@@ -13,7 +13,7 @@ function _(id) {
 
 function setup() {
   paint = createCanvas(innerWidth - 200, innerHeight);
-  socket = io.connect(location.host);
+ socket = io.connect(window.location.hostname + ':3000');
   socket.on('mouse', newDrawing);
   brushColor = '#151718';
   bgColor = '#f1ebeb';

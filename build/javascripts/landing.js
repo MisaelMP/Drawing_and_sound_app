@@ -4,7 +4,6 @@
   modifications by: Misael M.
 */
 
-
 function Particle() {
   this.x = random([0, w]);
   this.y = random([0, h]);
@@ -94,4 +93,3 @@ function windowResized() {
 function mouseClicked() {
   reset();
 }
-;

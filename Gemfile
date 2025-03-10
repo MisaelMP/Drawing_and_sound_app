@@ -1,12 +1,15 @@
 source 'https://rubygems.org'
 
-gem 'middleman', '~> 4.2'
-gem 'middleman-autoprefixer', '~> 2.7'
-gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
-gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw]
-gem "middleman-sprockets"
-gem 'font-awesome-middleman'
-gem "jquery-middleman"
+gem 'middleman', '~> 4.4' # or keep ~> 4.2 if upgrading is problematic
+# gem 'sassc'
+# gem 'middleman-sprockets', '~> 4.1'
+gem 'listen', '~> 3.0'
+
+# Only for Windows
+gem 'wdm', platforms: [:mswin, :mingw]
+
+# gem 'font-awesome-middleman'
+gem 'jquery-middleman'
 gem 'middleman-gh-pages'
 gem 'rake'
 gem 'rack-contrib'

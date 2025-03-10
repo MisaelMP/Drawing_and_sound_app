@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const server = app.listen(process.env.PORT || 4567);
+const server = app.listen(process.env.PORT || 3000);
 app.use(express.static('build'));
 console.log('this is working');
 
