@@ -1,5 +1,5 @@
 {
-  "name": "sharedCanvas",
+  "name": "sharedcanvas",
   "version": "1.0.0",
   "description": "App using socket.io, p5.js, express and node.js",
   "main": "index.js",
@@ -14,7 +14,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
     "express": "^4.16.3",
     "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss-cli": "^11.0.0",
+    "postcss-import": "^16.1.0",
+    "postcss-nested": "^7.0.2",
+    "sass": "^1.85.1"
   }
 }
