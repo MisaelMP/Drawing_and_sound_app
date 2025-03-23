@@ -19,12 +19,19 @@ Live demo: <br><br>
 * Node.js
 * Express
 * Middleman
-* CSS/SCSS
+* CSS/Postcss
 
 #### Installation
 Install ```middleman```
 Run ```bundle```
 Run ``` npm install```
+
+### Run App
+
+Open two terminals:
+1.- `npm run start`
+2.- `middleman serve`
+
 
 #### Bugs
 ---------------

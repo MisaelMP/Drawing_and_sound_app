@@ -96,8 +96,6 @@ function setup() {
 
 function newDrawing(data) {
   console.log(data);
-  // debugger;
-
 ///  drawing paint function starts here ///////////
 
 console.log('brushColor', data.brushColor)
