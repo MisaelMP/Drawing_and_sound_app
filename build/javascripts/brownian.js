@@ -86,8 +86,6 @@ function setup() {
 }
 
 function newDrawing(data) {
-  console.log(data);
-  // debugger;
   const volume = data.volume;
   stroke(data.brushColor);
   fill(data.brushColor);
