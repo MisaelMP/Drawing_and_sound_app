@@ -33,8 +33,6 @@ GEM
     fast_blank (1.0.1)
     fastimage (2.4.0)
     ffi (1.17.1)
-    font-awesome-middleman (4.2.1)
-      middleman-core (>= 3.0.0)
     haml (6.3.0)
       temple (>= 0.8.2)
       thor
@@ -88,9 +86,6 @@ GEM
       webrick
     middleman-gh-pages (0.4.1)
       rake (> 0.9.3)
-    middleman-sprockets (4.1.1)
-      middleman-core (~> 4.0)
-      sprockets (>= 3.0)
     minitest (5.25.4)
     mutex_m (0.3.0)
     nio4r (2.7.4)
@@ -118,9 +113,6 @@ GEM
       ffi (~> 1.9)
     securerandom (0.3.2)
     servolux (0.13.0)
-    sprockets (4.2.1)
-      concurrent-ruby (~> 1.0)
-      rack (>= 2.2.4, < 4)
     temple (0.10.3)
     thor (1.2.2)
     tilt (2.6.0)
@@ -136,16 +128,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  font-awesome-middleman
   jquery-middleman
   listen (~> 3.0)
   middleman (~> 4.4)
   middleman-gh-pages
-  middleman-sprockets (~> 4.1)
   puma
   rack-contrib
   rake
-  sassc
   wdm
 
 BUNDLED WITH
