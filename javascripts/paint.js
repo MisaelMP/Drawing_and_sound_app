@@ -13,7 +13,7 @@ function _(id) {
 
 function setup() {
   paint = createCanvas(innerWidth - 200, innerHeight);
-  socket = io.connect('http://localhost:4567');
+ socket = io.connect(window.location.hostname + ':3000');
   socket.on('mouse', newDrawing);
   brushColor = '#151718';
   bgColor = '#f1ebeb';
@@ -96,8 +96,6 @@ function setup() {
 
 function newDrawing(data) {
   console.log(data);
-  // debugger;
-
 ///  drawing paint function starts here ///////////
 
 console.log('brushColor', data.brushColor)
@@ -148,4 +146,3 @@ function mouseDragged() {
   }
 
 }
-;

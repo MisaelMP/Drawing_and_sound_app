@@ -48,7 +48,7 @@ function _(id) {
 function setup() {
   paint = createCanvas(innerWidth - 200, innerHeight);
   bgColor = '#000';
-  socket = io.connect('http://localhost:4567');
+  socket = io.connect(window.location.hostname + ':3000');
   socket.on('mouse', newDrawing);
   particleStepMax = 50;
   p = new Particle();
@@ -86,8 +86,6 @@ function setup() {
 }
 
 function newDrawing(data) {
-  console.log(data);
-  // debugger;
   const volume = data.volume;
   stroke(data.brushColor);
   fill(data.brushColor);
@@ -125,4 +123,3 @@ function draw() {
   }
 
 }
-;
